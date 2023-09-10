@@ -1,0 +1,51 @@
+:root {
+    --rowNum: 1;
+    --columnNum: 1;
+}
+
+body {
+  background-color: rgb(247, 239, 229);
+
+}
+
+.container {
+    display: grid;
+
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    gap: 0;
+    grid-template-rows: repeat(var(--rowNum), 1fr);
+    grid-template-columns: repeat(var(--columnNum), 1fr);
+    align-items: stretch;
+    justify-items: stretch;
+
+    color: rgb(red, green, blue);
+}
+
+.box {
+    /* padding: 1em; */
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+button {
+    display: flex; 
+    box-sizing: border-box;
+    width: auto;
+    margin: 10px auto 10px;
+}
+
+.counter {
+    display: flex; 
+    justify-content: center;
+}

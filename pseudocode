@@ -1,0 +1,4 @@
+> Ask user the number of squares per side for the new grid via prompt
+> Remsove existing grid and make a new grid - same total space (960px) with max of 100
+> Generate random colors on grid when hovered
+> Add option to darken color by 10% 
